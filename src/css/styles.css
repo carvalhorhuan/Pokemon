@@ -11,7 +11,7 @@ body {
   body.modo-escuro {
     background: url(../imagens/fundonoite.webp) no-repeat;
     background-size: cover;
-    color: floralwhite;
+    color: rgb(255, 240, 240);
     height: 1119px;
 
   }
@@ -22,10 +22,14 @@ body {
     padding: 5px;
   }
   
-  header .logo,
+  header .pokebola,
   header .imagem-botao {
     width: 50px;
     transition: 0.2s ease-in-out;
+  }
+  header .logo{
+    width: 100px;
+  
   }
   
   header .imagem-botao {
@@ -34,7 +38,7 @@ body {
     cursor: pointer;
   }
   
-  header .logo:hover,
+  header .pokebola:hover,
   header .imagem-botao:hover {
     transform: scale(1.05);
     cursor: pointer;
